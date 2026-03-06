@@ -1,5 +1,5 @@
-#include "Config.hpp"
-#include "ConfigException.hpp"
+#include <Config/Config.hpp>
+#include <Config/ConfigException.hpp>
 
 #include <fstream>
 
@@ -43,8 +43,7 @@ namespace config {
         if(!has(section, key)) return defaultValue;
         const auto& value = data_.at(section).at(key);
         if(value == "true" || value =="1") return true;
-        if(value == "false" || value =="0") return;
-        
+        if(value == "false" || value =="0") return false;
         throw ConfigException("Invalid Boolean value for " + section + "." + key);
     }
 

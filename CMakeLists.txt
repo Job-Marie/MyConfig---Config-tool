@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 4.0)
 
-project(ConfigTool VERSION 1.0 DESCRIPTION "Simple INI configuration library" LANGUAGE CXX)
+project(ConfigTool VERSION 1.0) #DESCRIPTION "Simple INI configuration library" LANGUAGE CXX
 
 # Standard C++
 set(CMAKE_CXX_STANDARD 20)

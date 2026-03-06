@@ -1,0 +1,16 @@
+# ninja log v6
+1431	3458	7944631318476197	CMakeFiles/configtool_tests.dir/tests/main.cpp.obj	f7780a49224691b2
+968	1412	7944631317943532	CMakeFiles/configtool_tests.dir/tests/main.cpp.obj.modmap	ac1ca83a256b8cfe
+96	966	7944631305131528	CMakeFiles/configtool.dir/src/ConfigException.cpp.obj.ddi	518c3b3360ae7dbd
+36	303	7944632204814196	CMakeFiles/configtool.dir/src/Config.cpp.obj.ddi	885020a0796316b
+968	1412	7944631317943532	CMakeFiles/configtool_tests.dir/CXX.dd	ac1ca83a256b8cfe
+304	551	7944632207584981	CMakeFiles/configtool.dir/CXX.dd	a6a13eb754978108
+118	968	7944631305350821	CMakeFiles/configtool_tests.dir/tests/main.cpp.obj.ddi	ea1eea812b9eacf1
+968	1412	7944631317943532	C:/start/Concret/ConfigTool/build/CMakeFiles/configtool_tests.dir/CXXModules.json	ac1ca83a256b8cfe
+304	551	7944632207584981	C:/start/Concret/ConfigTool/build/CMakeFiles/configtool.dir/CXXModules.json	a6a13eb754978108
+304	551	7944632207584981	CMakeFiles/configtool.dir/src/Config.cpp.obj.modmap	a6a13eb754978108
+304	551	7944632207584981	CMakeFiles/configtool.dir/src/ConfigException.cpp.obj.modmap	a6a13eb754978108
+1519	2985	7944631319365214	CMakeFiles/configtool.dir/src/ConfigException.cpp.obj	13ca8b4926f173ff
+556	2159	7944632210074117	CMakeFiles/configtool.dir/src/Config.cpp.obj	56d39fa4d7d8bbf1
+2160	2396	7944632226112756	configtool.lib	6ea1b4965df8f26
+2397	5194	7944632228453343	configtool_tests.exe	89fc126aedd92ff5

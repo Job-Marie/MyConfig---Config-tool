@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\configtool.dir\\src\\ConfigException.cpp.obj",
+            "outputs": [
+                "C:\\start\\Concret\\ConfigTool\\build\\vc140.pdb",
+                "CMakeFiles\\configtool.dir\\src\\ConfigException.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

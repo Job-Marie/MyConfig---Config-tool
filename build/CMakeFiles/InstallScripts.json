@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/start/Concret/ConfigTool/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
