@@ -1,0 +1,37 @@
+# build directory
+build/
+
+# cmake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# executables
+*.exe
+*.out
+*.app
+
+# object files
+*.o
+*.obj
+
+# libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Visual Studio
+*.vcxproj*
+*.sln
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Other
+compile_commands.json

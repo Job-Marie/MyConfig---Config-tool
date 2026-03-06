@@ -1,5 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles\configtool.dir\src\Config.cpp.obj: dyndep
-
-build CMakeFiles\configtool.dir\src\ConfigException.cpp.obj: dyndep
-

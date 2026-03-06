@@ -8,7 +8,7 @@ namespace config {
         std::ifstream file(filename);
         if(!file) throw ConfigException("Unable to open config file: " + filename);
         
-        // Parsing
+        parse(file);
     }
 
     void Config::saveToFile(const std::string& filename) const {
@@ -45,9 +45,14 @@ namespace config {
         if(value == "true" || value =="1") return true;
         if(value == "false" || value =="0") return false;
         throw ConfigException("Invalid Boolean value for " + section + "." + key);
+        return 0;
     }
 
     void Config::set(const std::string& section, const std::string& key, const std::string& value) {
         data_[section][key] = value;
+    }
+
+    void Config::parse(std::istream& input) {
+        // Parsing à venir
     }
 }

@@ -2,11 +2,14 @@
 
 #include<string>
 #include<unordered_map>
+#include<istream>
 
 namespace config {
     class Config {
         private :
         std::unordered_map <std::string, std::unordered_map <std::string, std::string>> data_;
+
+        void parse(std::istream& input);
     
         public :
         void loadFromFile(const std::string& filename);

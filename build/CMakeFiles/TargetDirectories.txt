@@ -1,4 +1,0 @@
-C:/start/Concret/ConfigTool/build/CMakeFiles/configtool.dir
-C:/start/Concret/ConfigTool/build/CMakeFiles/configtool_tests.dir
-C:/start/Concret/ConfigTool/build/CMakeFiles/edit_cache.dir
-C:/start/Concret/ConfigTool/build/CMakeFiles/rebuild_cache.dir
