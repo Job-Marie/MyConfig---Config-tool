@@ -9,9 +9,9 @@ namespace config {
         private :
         std::unordered_map <std::string, std::unordered_map <std::string, std::string>> data_;
 
-        void parse(std::istream& input);
-    
+        
         public :
+        void parse(std::istream& input);
         void loadFromFile(const std::string& filename);
         void saveToFile(const std::string& filename) const;
         bool has(const std::string& section, const std::string& key) const;

@@ -1,5 +1,6 @@
-#include <Config/Config.hpp>
-#include <Config/ConfigException.hpp>
+#include "Config/Config.hpp"
+#include "Config/ConfigException.hpp"
+#include "Config/ConfigParser.hpp"
 
 #include <fstream>
 
@@ -45,7 +46,6 @@ namespace config {
         if(value == "true" || value =="1") return true;
         if(value == "false" || value =="0") return false;
         throw ConfigException("Invalid Boolean value for " + section + "." + key);
-        return 0;
     }
 
     void Config::set(const std::string& section, const std::string& key, const std::string& value) {
@@ -53,6 +53,8 @@ namespace config {
     }
 
     void Config::parse(std::istream& input) {
-        // Parsing à venir
+        ConfigParser parser;
+        parser.load(input);
+        data_ = parser.get_data();
     }
 }

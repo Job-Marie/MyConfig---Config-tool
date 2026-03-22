@@ -18,6 +18,7 @@ endif()
 add_library(configtool
     src/Config.cpp
     src/ConfigException.cpp
+    src/ConfigParser.cpp
 )
 
 target_include_directories(configtool
@@ -37,7 +38,7 @@ FetchContent_MakeAvailable(Catch2)
 
 # Executables tests
 add_executable(configtool_tests
-    tests/main.cpp
+    tests/config_parse_tests.cpp
 )
 
 target_link_libraries(configtool_tests
@@ -45,3 +46,7 @@ target_link_libraries(configtool_tests
     configtool
     Catch2::Catch2WithMain
 )
+
+enable_testing()
+
+add_test(NAME configtool_tests COMMAND config_tests)
